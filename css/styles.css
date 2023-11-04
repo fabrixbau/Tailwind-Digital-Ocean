@@ -1,0 +1,33 @@
+.move-left {
+    animation: moveLeft 10s linear infinite;
+    position: relative;
+  }
+  
+  .move-right {
+    animation: moveRight 10s linear infinite;
+    position: relative;
+  }
+  
+  /* Define las keyframes para la animación */
+  @keyframes moveLeft {
+    0% {
+        left: 0;
+        transform: scaleX(1);
+    }
+    100% {
+        left: 100%;
+        transform: scaleX(1);
+    }
+  }
+  
+  @keyframes moveRight {
+    0% {
+      right: 0;  
+      transform: scaleX(1);
+    }
+    100% {
+        right: 100%;
+        transform: scaleX(1);
+    }
+  }
+  
